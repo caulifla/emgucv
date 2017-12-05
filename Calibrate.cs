@@ -117,12 +117,9 @@ namespace emguCV {
       static readonly Mat distCoeffs = new Mat (8, 1, DepthType.Cv64F, 1);
 
       static bool found;
+
       static Mat newMatrix;
 
       static Mat[] rVecs, tVecs;
-
-
-
-
    }
 }
